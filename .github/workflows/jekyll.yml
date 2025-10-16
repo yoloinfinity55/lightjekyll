@@ -33,10 +33,9 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build
 
-      # 部署步骤，根据你项目而定
-      # 例如推送 _site 目录到 gh-pages 分支
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./_site
+      # Deploy to GitHub Pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
