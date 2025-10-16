@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Server is running!"
+date:   2025-10-11 10:39:11 -0400
+categories: jekyll update
+---
+
 Perfect! The server is running now! ✅
 
 ```

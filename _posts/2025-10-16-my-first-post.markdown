@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "What just happened!"
+date:   2025-08-16 10:39:11 -0400
+categories: jekyll update
+---
+
 Excellent! Your Jekyll site is up and running! 🎉
 
 Your site is now live at **http://127.0.0.1:4000/** (same as localhost:4000)
